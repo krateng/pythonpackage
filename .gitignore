@@ -1,16 +1,6 @@
 # Python
 *.pyc
 
-# Distribution / packaging
-build/
-dist/
-eggs/
-.eggs/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
 # Environments
 .env
 .venv
