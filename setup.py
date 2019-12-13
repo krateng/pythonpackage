@@ -27,3 +27,6 @@ setuptools.setup(
 	package_data={'': module.resources},
 	include_package_data=True,
 )
+
+import os
+os.system("git tag v" + ".".join(str(n) for n in module.version))
